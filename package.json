@@ -1,5 +1,5 @@
 {
-  "name": "book-cli",
+  "name": "@feng-self/book-cli",
   "version": "1.0.0",
   "description": "cli 工具",
   "main": "index.js",
@@ -28,5 +28,9 @@
     "template_js": "^2.4.0",
     "validate-npm-package-name": "^5.0.0",
     "yargs": "^17.7.1"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org",
+    "access": "public"
   }
 }
